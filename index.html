@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Mars Rover</title>
+        <link rel="stylesheet" href="index.css" />
+
+        <link
+            rel="stylesheet"
+            href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+        />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    </head>
+    <body>
+        <h1 id="para">MARS ROVER IMAGES</h1>
+        <form action="">
+            <div>
+                <lable for="datepicker" id="date">Date : &ensp; </lable>
+                <input type="text" id="datepicker" placeholder="Enter Date" />
+            </div>
+
+            <button type="submit">Get Image</button>
+        </form>
+
+        <div id="nasa-images" class="flex-center"></div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
